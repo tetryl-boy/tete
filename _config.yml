@@ -3,9 +3,9 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 演示站点
+title: 'tetryl'
 subtitle: ''
-description: '这是一个演示站点'
+description: 'omg'
 keywords:
 author: 
 language: en
@@ -104,7 +104,10 @@ theme: fluid
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:tetryl-boy/hexo-blog-netlify.git
+  branch: master
+  token: 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
   
 # 永久链接
 # https://github.com/Rozbo/hexo-abbrlink
