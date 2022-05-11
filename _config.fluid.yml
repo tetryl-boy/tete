@@ -889,20 +889,37 @@ shuoshuo:
   banner_img_height: 60
   banner_mask_alpha: 0.3
   subtitle:  # 打字机内容
+  artitalk:
+    appId: mzbOQCaDW7JLeM8TfnpQmXmv-gzGzoHsz
+    appKey: aGqp64645mekjXkwFCbKXJ3s
+    serverURL: mzboqcad.lc-cn-n1-shared.com 
+    atComment: true # 是否开启说说评论
+    cssurl: https://cdn.staticaly.com/gh/spaceskynet/Artitalk/master/dist/css/artitalk.min.css # 魔改版本的 css
+  
   comments:
     enable: true
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis
-    type: artitalk
+    type: valine
 
+valine:
+  appId: mzbOQCaDW7JLeM8TfnpQmXmv-gzGzoHsz
+  appKey: aGqp64645mekjXkwFCbKXJ3s
+  path: window.location.pathname
+  placeholder:
+  avatar: 'retro'
+  meta: ['nick', 'mail', 'link']
+  requiredFields: []
+  pageSize: 10
+  lang: 'en'
+  highlight: false
+  recordIP: true
+  serverURLs: ''
+  emojiCDN:
+  emojiMaps:
+  enableQQ: true
 
-artitalk:
-  appId: mzbOQCaDW7JLeM8TfnpQmXmv-gzGzoHsz # 你的 leancloud appId
-  appKey: aGqp64645mekjXkwFCbKXJ3s # 你的 leancloud appKey
-  serverURL: mzboqcad.lc-cn-n1-shared.com # 你的 leancloud serverURL
-  atComment: true # 是否开启说说评论
-  cssurl: https://cdn.staticaly.com/gh/spaceskynet/Artitalk/master/dist/css/artitalk.min.css # 魔改版本的 css
 
 
 #---------------------------
