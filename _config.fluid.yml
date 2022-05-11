@@ -903,22 +903,7 @@ shuoshuo:
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis
     type: valine
 
-valine:
-  appId: mzbOQCaDW7JLeM8TfnpQmXmv-gzGzoHsz
-  appKey: aGqp64645mekjXkwFCbKXJ3s
-  path: window.location.pathname
-  placeholder:
-  avatar: 'retro'
-  meta: ['nick', 'mail', 'link']
-  requiredFields: []
-  pageSize: 10
-  lang: 'en'
-  highlight: false
-  recordIP: true
-  serverURLs: ''
-  emojiCDN:
-  emojiMaps:
-  enableQQ: true
+
 
 
 
