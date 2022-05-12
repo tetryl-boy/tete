@@ -4,7 +4,7 @@ navbar:
     enable: true
 index:
   banner_img: /images/uploads/5bfca00d-0542-4ec0-bb2c-5d02058d18c8.jpeg
-  banner_img_height: 100
+  banner_img_height: 110
   slogan:
     text: Hello, this is Tetryl !
 post:
