@@ -1,6 +1,6 @@
 ---
-banner_img: https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.hunan.gov.cn%2Ftopic%2Fashunan%2F112%2F118%2Fcontent_8241.html&psig=AOvVaw3fl52AKHTOZDPjn8cPF3Bb&ust=1652861025202000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKiG7KiJ5vcCFQAAAAAdAAAAABAP
-index_img: https://www.google.com/url?sa=i&url=http%3A%2F%2Fwww.hunan.gov.cn%2Ftopic%2Fashunan%2F112%2F118%2Fcontent_8241.html&psig=AOvVaw3fl52AKHTOZDPjn8cPF3Bb&ust=1652861025202000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKiG7KiJ5vcCFQAAAAAdAAAAABAP
+banner_img: http://y1.ifengimg.com/a/2015_29/c083b0baec24d92_size285_w772_h472.jpg
+index_img: http://y1.ifengimg.com/a/2015_29/c083b0baec24d92_size285_w772_h472.jpg
 title: Making Your Own GUI for Supercomputer
 date: 2022-05-17 15:59:58
 updated: 2022-05-17 15:59:58
