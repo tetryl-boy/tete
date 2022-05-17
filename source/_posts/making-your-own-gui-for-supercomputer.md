@@ -14,16 +14,14 @@ comments: true
 
 The supercomputer which the writer use is TH-2. The computer uses Slurm workload manager. Users need to write shell scripts first and change the input file into specific forms. 
 
-```bash
-sinfo                #check the status of the point
-yhbatch name .sh               #submit the jobs
-yhq/ squeue                    #check the status of jobs in the point
-squeue -u YOURNAME                 #check only your jobs 
-yhcontrol show jobs XXXX        #check job imformation
-yhcancel XXXXX                  #kill the job
+```shell
+$ sinfo                #check the status of the point
+$ yhbatch name .sh               #submit the jobs
+$ yhq/ squeue                    #check the status of jobs in the point
+$ squeue -u YOURNAME                 #check only your jobs 
+$ yhcontrol show jobs XXXX        #check job imformation
+$ yhcancel XXXXX                  #kill the job
 ```
-
-
 
 ## Preparation
 
