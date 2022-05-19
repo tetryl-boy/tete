@@ -41,5 +41,5 @@ links:
       avatar: /img/favicon.png
     - title: Overleaf
       intro: Tetryl' private latex
-      link: http://47.108.91.115:8080/project
+      link: https://tex.tetryl.top/project
       avatar: https://avatars.githubusercontent.com/u/6359919?s=64&v=4
