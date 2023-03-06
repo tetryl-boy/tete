@@ -14,7 +14,8 @@ Carrying a disk around is not a elegant way for coding. The best way for coding 
 
 To have you own onling IDE, you should have a sever with full root access(control firewall and nignx). It should not be too expensive to rent a VPS with 2 cores and 30 GB disk.
 
-Go to the repository (https://github.com/coder/code-server/releases/tag/v4.10.1), then pick the right version. Download to your server.
+Go to the repository **[chart.xkcd](https://github.com/coder/code-server/releases/tag/v4.10.1)**, then pick the right version. Download to your server.
+
 ```bash
 wget https://github.com/coder/code-server/releases/download/v4.10.1/code-server-4.10.1-linux-amd64.tar.gz
 ```
