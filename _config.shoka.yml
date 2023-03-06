@@ -91,12 +91,12 @@ iconfont: "1832207_igi8uaupcus"
 menu:
   home: / || home
   about: /about/ || user
-  posts:
-    default: / || feather
-    archives: /archives/ || list-alt
-    categories: /categories/ || th
-    tags: /tags/ || tags
-  friends: /friends/ || heart
+  # posts:
+  #   default: / || feather
+  #   archives: /archives/ || list-alt
+  #   categories: /categories/ || th
+  #   tags: /tags/ || tags
+  # friends: /friends/ || heart
   # links: /links/ || magic
 
 # Social Links
@@ -146,12 +146,12 @@ footer:
 
 post:
   # Dependencies: https://github.com/theme-next/hexo-symbols-count-time
-  count: true
+  count: false
 
 # Reward (Donate)
 reward:
   # If true, reward will be displayed in every article by default.
-  enable: false
+  enable: true
   account:
     wechatpay: /wechatpay.png
     alipay: /alipay.png
