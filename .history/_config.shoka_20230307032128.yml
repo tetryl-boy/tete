@@ -191,14 +191,14 @@ valine:
   pageSize: 10 # Pagination size
   lang: en
   visitor: true # 文章访问量统计
-  NoRecordIP: true # 不记录 IP
+  NoRecordIP: false # 不记录 IP
   serverURLs: https://ypunho8t.api.lncldglobal.com   # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
   powerMode: true # 默认打开评论框输入特效
   tagMeta:
     visitor: new friend
-    master: master
+    master: 
     friend: friend
-    investor: investor
+    investor: 金主粑粑
   tagColor:
     master: "var(--color-orange)"
     friend: "var(--color-aqua)"
