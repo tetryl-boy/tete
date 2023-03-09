@@ -27,7 +27,7 @@
     "hexo-renderer-ejs": "2.0.0",
     "hexo-renderer-markdown-it": "6.0.1",
     "hexo-renderer-pandoc": "^0.3.1",
-    "hexo-renderer-stylus": "2.0.1",
+    "hexo-renderer-stylus": "2.1.0",
     "hexo-seo": "git+https://github.com/dimaslanjaka/hexo-seo.git",
     "hexo-server": "3.0.0",
     "remark-pangu": "^2.2.0"
