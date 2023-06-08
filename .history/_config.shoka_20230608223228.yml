@@ -105,14 +105,14 @@ menu:
 # Value before `||` delimiter is the target permalink,
 # secend value is the name of Font icon.
 social:
-  #github: https://github.com/yourname || github || "#191717"
+  github: https://github.com/tetryl-boy || github || "#191717"
   #google: https://plus.google.com/yourname || google
   #twitter: https://twitter.com/yourname || twitter || "#00aff0"
   #zhihu: https://www.zhihu.com/people/yourname || zhihu || "#1e88e5"
   #music: https://music.163.com/#/user/home?id=yourid || cloud-music || "#e60026"
   #weibo: https://weibo.com/yourname || weibo || "#ea716e"
   #about: https://about.me/yourname || address-card || "#3b5998"
-  #email: mailto:yourname@mail.com || envelope || "#55acd5"
+  email: mailto:tetryl@hnu.edu.cn || envelope || "#55acd5"
   #facebook: https://www.facebook.com/yourname || facebook
   #stackoverflow: https://stackoverflow.com/yourname || stack-overflow
   #youtube: https://youtube.com/yourname || youtube
@@ -125,7 +125,7 @@ sidebar:
   position: left
   # position: right
   # Replace the default avatar image and set the url here.
-  avatar: avatar.jpg
+  avatar: profile.jpg
 
 widgets:
   # if true, will show random posts
@@ -151,7 +151,7 @@ post:
 # Reward (Donate)
 reward:
   # If true, reward will be displayed in every article by default.
-  enable: true
+  enable: false
   account:
     wechatpay: /wechatpay.png
     alipay: /alipay.png
@@ -184,21 +184,21 @@ creative_commons:
 # Valine
 # For more information: https://github.com/amehime/MiniValine
 valine:
-  appId: #Your_appId
-  appKey: #Your_appkey
+  appId: yPunHo8t4GqKeZ42F2TofUSP-MdYXbMMI
+  appKey: AEW1UgjVka7QqSyMpbSNhpzD
   placeholder: ヽ(○´∀`)ﾉ♪ # Comment box placeholder
   avatar: mp # Gravatar style : mp, identicon, monsterid, wavatar, robohash, retro
   pageSize: 10 # Pagination size
   lang: en
-  visitor: true # Article reading statistic
-  NoRecordIP: false # Whether to record the commenter IP
-  serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
-  powerMode: true
+  visitor: true # 文章访问量统计
+  NoRecordIP: true # 不记录 IP
+  serverURLs: https://ypunho8t.api.lncldglobal.com   # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
+  powerMode: true # 默认打开评论框输入特效
   tagMeta:
-    visitor: 新朋友
-    master: 主人
-    friend: 小伙伴
-    investor: 金主粑粑
+    visitor: new friend
+    master: master
+    friend: friend
+    investor: investor
   tagColor:
     master: "var(--color-orange)"
     friend: "var(--color-aqua)"
@@ -212,6 +212,7 @@ valine:
       # - hash of friend2@email.com
     investor:
       # - hash of investor1@email.com
+
 
 # bgm
 audio:
